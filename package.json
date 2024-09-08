@@ -1,0 +1,16 @@
+{
+  "name": "hono-restful-api-starter-kit",
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "dev:wrangler": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "hono": "^4.5.11"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240529.0",
+    "@types/bun": "latest",
+    "wrangler": "^3.75.0"
+  }
+}
